@@ -49,7 +49,7 @@ export default function Home() {
       {/* Service Section */}
       <section id="service" className="py-16 px-6 bg-[var(--color-warm-gray)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">サービス</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">サービス</h2>
           {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             お客様のアイデアをカタチにします
           </p> */}
@@ -97,7 +97,7 @@ export default function Home() {
       {/* Works Section */}
       <section id="works" className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">実績</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">実績</h2>
           {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             これまでに制作したプロダクト
           </p> */}
@@ -165,7 +165,7 @@ export default function Home() {
       {/* Profile Section */}
       <section id="profile" className="py-16 px-6 bg-[var(--color-warm-gray)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">プロフィール</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">プロフィール</h2>
           {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             gotoAndPlayについて
           </p> */}
