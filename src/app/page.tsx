@@ -18,7 +18,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
-        {/* TODO: 背景画像を差し替え → public/images/hero-bg.jpg */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
@@ -28,12 +27,12 @@ export default function Home() {
 
         <div className="relative max-w-3xl text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
-            <span className="text-[var(--color-accent)]">IT</span>の知識がなくても大丈夫。
+            <span className="text-[var(--color-accent)]">IT</span>の知識がなくても大丈夫です！
           </h1>
           <p className="text-lg sm:text-xl text-[var(--color-text-light)] mb-8 leading-relaxed">
             Webサイト・アプリの制作から運用まで
             <br className="hidden sm:block" />
-            <span className="font-medium text-[var(--color-text)]">まるっとおまかせ</span>ください。
+            代わりに<span className="font-bold text-[var(--color-text)]">まるっとおまかせ</span>ください。
           </p>
           <p className="text-sm text-[var(--color-text-light)] mb-10">
             AIにはできない、柔軟性と血の通った仕事をお届けします。
@@ -176,14 +175,25 @@ export default function Home() {
               {/* Profile Image Placeholder */}
               <div className="w-32 h-32 rounded-full bg-[var(--color-accent)]/10 flex items-center justify-center flex-shrink-0">
                 {/* TODO: 顔写真に差し替え */}
-                <svg className="w-16 h-16 text-[var(--color-accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                <img src="/images/face-img.png" alt="Yuta TRM" className="rounded-full"/>
               </div>
 
               <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-xl font-bold mb-1">Yuta TRM</h3>
-                <p className="text-sm text-[var(--color-accent)] mb-4">gotoAndPlay 代表</p>
+                <div className="flex items-center gap-2 justify-center sm:justify-start mb-1">
+                  <h3 className="text-xl font-bold">Yuta TRM</h3>
+                  <a
+                    href="https://x.com/UT_TRM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-7 h-7 rounded-full bg-[var(--color-text)] hover:bg-[var(--color-accent)] flex items-center justify-center transition-colors"
+                    aria-label="X (Twitter)"
+                  >
+                    <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                  </a>
+                </div>
+                <p className="text-sm text-[var(--color-accent)] mb-6">gotoAndPlay 代表</p>
 
                 {/* 経歴 - TODO: 内容を更新 */}
                 <div className="mb-6">
@@ -199,7 +209,7 @@ export default function Home() {
                   <h4 className="font-medium mb-3">スキル</h4>
                   <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
                     {/* TODO: スキルを更新 */}
-                    {["React", "Next.js", "TypeScript", "Swift", "Firebase", "UI/UX"].map((skill) => (
+                    {["React", "Next.js", "TypeScript", "React Native", "Supabase", ,"HTML", "CSS", "UI/UX"].map((skill) => (
                       <span
                         key={skill}
                         className="px-3 py-1 bg-[var(--color-accent)]/10 text-[var(--color-accent)] text-sm rounded-full"
@@ -226,7 +236,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc8jaC04WoxN9VUPzwnbiH5ITDc9Lg22t7BMgF2bFt6Q3KAUQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-medium px-10 py-4 rounded-full transition-colors text-lg"
