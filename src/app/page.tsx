@@ -20,7 +20,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center px-6 pt-20">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+          style={{ backgroundImage: "url('images/hero-bg.jpg')" }}
         />
         {/* オーバーレイ（画像がない場合はベタ塗り） */}
         <div className="absolute inset-0 bg-[var(--color-warm-white)]/65" />
@@ -110,10 +110,10 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow"
             >
-              {/* TODO: 画像を差し替え → public/images/work-zaseki.jpg */}
+              {/* TODO: 画像を差し替え → publicimages/work-zaseki.jpg */}
               <div className="aspect-video bg-gradient-to-br from-rose-300 to-rose-400 relative overflow-hidden group/img">
                 <img
-                  src="/images/zasekiyosou-img.jpg"
+                  src="images/zasekiyosou-img.jpg"
                   alt="座席予想掲示板"
                   className="w-full h-full object-cover relative z-10"
                 />
@@ -138,10 +138,10 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow"
             >
-              {/* TODO: 画像を差し替え → public/images/work-kokoro.jpg */}
+              {/* TODO: 画像を差し替え → publicimages/work-kokoro.jpg */}
               <div className="aspect-video bg-gradient-to-br from-teal-400 to-teal-500 relative overflow-hidden">
                 <img
-                  src="/images/kokoro-living-img.jpg"
+                  src="images/kokoro-living-img.jpg"
                   alt="こころのリビング"
                   className="w-full h-full object-cover relative z-10"
                 />
@@ -175,7 +175,7 @@ export default function Home() {
               {/* Profile Image Placeholder */}
               <div className="w-32 h-32 rounded-full bg-[var(--color-accent)]/10 flex items-center justify-center flex-shrink-0">
                 {/* TODO: 顔写真に差し替え */}
-                <img src="/images/face-img.png" alt="Yuta TRM" className="rounded-full"/>
+                <img src="images/face-img.png" alt="Yuta TRM" className="rounded-full"/>
               </div>
 
               <div className="flex-1 text-center sm:text-left">
