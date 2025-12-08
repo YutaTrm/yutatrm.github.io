@@ -111,9 +111,9 @@ export default function Home() {
               className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow"
             >
               {/* TODO: 画像を差し替え → public/images/work-zaseki.jpg */}
-              <div className="aspect-video bg-gradient-to-br from-rose-400 to-rose-500 relative overflow-hidden group/img">
+              <div className="aspect-video bg-gradient-to-br from-rose-300 to-rose-400 relative overflow-hidden group/img">
                 <img
-                  src="/images/work-zaseki.jpg"
+                  src="/images/zasekiyosou-img.jpg"
                   alt="座席予想掲示板"
                   className="w-full h-full object-cover relative z-10"
                 />
@@ -141,7 +141,7 @@ export default function Home() {
               {/* TODO: 画像を差し替え → public/images/work-kokoro.jpg */}
               <div className="aspect-video bg-gradient-to-br from-teal-400 to-teal-500 relative overflow-hidden">
                 <img
-                  src="/images/work-kokoro.jpg"
+                  src="/images/kokoro-living-img.jpg"
                   alt="こころのリビング"
                   className="w-full h-full object-cover relative z-10"
                 />
@@ -195,12 +195,10 @@ export default function Home() {
                 </div>
                 <p className="text-sm text-[var(--color-accent)] mb-6">gotoAndPlay 代表</p>
 
-                {/* 経歴 - TODO: 内容を更新 */}
                 <div className="mb-6">
                   <h4 className="font-medium mb-2">経歴</h4>
                   <p className="text-sm text-[var(--color-text-light)] leading-relaxed">
-                    {/* TODO: 経歴を記載 */}
-                    ここに経歴を記載してください。大学での専攻、前職での経験、独立のきっかけなど。
+                    高校時代にWindowsのメモ帳でホームページを作り始め、Web制作の世界へ。新卒でIT系受託制作会社に入社し、大手通信会社のメディアサイトなどの開発・運用を経験。現在はフィンテック企業に勤務しながら、個人事業として副業も行っています。エンジニア歴は長いですが、論理よりも感情を大切に、人に寄り添ったものづくりを心がけています。
                   </p>
                 </div>
 
