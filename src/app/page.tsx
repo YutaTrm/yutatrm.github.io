@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
             <span className="text-[var(--color-accent)]">IT</span>の知識がなくても大丈夫です！
           </h1>
-          <p className="text-lg sm:text-xl text-[var(--color-text-light)] mb-8 leading-relaxed">
+          <p className="text-lg sm:text-xl text-[var(--color-text-light)] mb-4 leading-relaxed">
             Webサイト・アプリの制作から運用まで
             <br className="hidden sm:block" />
             代わりに<span className="font-bold text-[var(--color-text)]">まるっとおまかせ</span>ください。
@@ -47,12 +47,12 @@ export default function Home() {
       </section>
 
       {/* Service Section */}
-      <section id="service" className="py-24 px-6 bg-[var(--color-warm-gray)]">
+      <section id="service" className="py-16 px-6 bg-[var(--color-warm-gray)]">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">サービス</h2>
-          <p className="text-center text-[var(--color-text-light)] mb-16">
+          {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             お客様のアイデアをカタチにします
-          </p>
+          </p> */}
 
           <div className="grid sm:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm">
@@ -63,7 +63,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-lg mb-2">Webサイト制作</h3>
               <p className="text-sm text-[var(--color-text-light)]">
-                コーポレートサイト、LP、ECサイトなど、目的に合わせて最適なサイトを制作します。
+                コーポレートサイト、LP、アプリケーションサイトなど、目的に合わせて最適なサイトを制作します。
               </p>
             </div>
 
@@ -95,12 +95,12 @@ export default function Home() {
       </section>
 
       {/* Works Section */}
-      <section id="works" className="py-24 px-6">
+      <section id="works" className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">実績</h2>
-          <p className="text-center text-[var(--color-text-light)] mb-16">
+          {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             これまでに制作したプロダクト
-          </p>
+          </p> */}
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Work 1: 座席予想掲示板 */}
@@ -163,12 +163,12 @@ export default function Home() {
       </section>
 
       {/* Profile Section */}
-      <section id="profile" className="py-24 px-6 bg-[var(--color-warm-gray)]">
+      <section id="profile" className="py-16 px-6 bg-[var(--color-warm-gray)]">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">プロフィール</h2>
-          <p className="text-center text-[var(--color-text-light)] mb-16">
+          {/* <p className="text-center text-[var(--color-text-light)] mb-16">
             gotoAndPlayについて
-          </p>
+          </p> */}
 
           <div className="bg-white rounded-2xl p-8 sm:p-12 shadow-sm">
             <div className="flex flex-col sm:flex-row gap-8 items-center sm:items-start">
@@ -185,7 +185,7 @@ export default function Home() {
                     href="https://x.com/UT_TRM"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-7 h-7 rounded-full bg-[var(--color-text)] hover:bg-[var(--color-accent)] flex items-center justify-center transition-colors"
+                    className="w-6 h-6 rounded-full bg-[var(--color-text)] hover:bg-[var(--color-accent)] flex items-center justify-center transition-colors"
                     aria-label="X (Twitter)"
                   >
                     <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -224,7 +224,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-6">
+      <section id="contact" className="py-16 px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">お問い合わせ</h2>
           <p className="text-[var(--color-text-light)] mb-10">
