@@ -32,10 +32,10 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-[var(--color-text-light)] mb-4 leading-relaxed">
             Webサイト・アプリの制作から運用まで
             <br className="hidden sm:block" />
-            代わりに<span className="font-bold text-[var(--color-text)]">まるっとおまかせ</span>ください。
+            ITの裏方業務を<span className="font-bold text-[var(--color-text)]">まるっとお任せ</span>ください。
           </p>
           <p className="text-sm text-[var(--color-text-light)] mb-10">
-            AIにはできない、柔軟性と血の通った仕事をお届けします。
+            <span className="font-bold">人間</span>×<span className="font-bold">IT</span>で、柔軟性と血の通った仕事をお届けします。
           </p>
           <a
             href="#contact"
