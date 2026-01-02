@@ -104,12 +104,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Work 1: 座席予想掲示板 */}
-            <a
-              href="https://zasekiyosou.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow"
-            >
+            <div className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
               {/* TODO: 画像を差し替え → publicimages/work-zaseki.jpg */}
               <div className="aspect-video bg-gradient-to-br from-rose-300 to-rose-400 relative overflow-hidden group/img">
                 <img
@@ -119,25 +114,25 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-bold text-lg mb-2 group-hover:text-[var(--color-accent)] transition-colors">
+                <h3 className="font-bold text-lg mb-2">
                   座席予想掲示板
                 </h3>
                 <p className="text-sm text-[var(--color-text-light)] mb-3">
                   ライブのチケット番号を集計し、座席ブロックを可視化するWebサービス。多言語対応（日本語・韓国語・中国語）でPWAにも対応。
                 </p>
-                <span className="text-xs text-[var(--color-accent)] font-medium">
-                  Webサービス →
-                </span>
+                <a
+                  href="https://zasekiyosou.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-[var(--color-accent)] font-medium hover:underline"
+                >
+                  Webサービス
+                </a>
               </div>
-            </a>
+            </div>
 
             {/* Work 2: こころのリビング */}
-            <a
-              href="https://apps.apple.com/jp/app/%E3%81%93%E3%81%93%E3%82%8D%E3%81%AE%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0/id6755748925"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow"
-            >
+            <div className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
               {/* TODO: 画像を差し替え → publicimages/work-kokoro.jpg */}
               <div className="aspect-video bg-gradient-to-br from-teal-400 to-teal-500 relative overflow-hidden">
                 <img
@@ -147,17 +142,59 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-bold text-lg mb-2 group-hover:text-[var(--color-accent)] transition-colors">
+                <h3 className="font-bold text-lg mb-2">
                   こころのリビング
                 </h3>
                 <p className="text-sm text-[var(--color-text-light)] mb-3">
                   メンタルヘルスに特化したSNSアプリ。診断名や治療法でタグ付けし、同じ経験を持つ人と繋がれるコミュニティ。
                 </p>
-                <span className="text-xs text-[var(--color-accent)] font-medium">
-                  iOSアプリ →
-                </span>
+                <div className="flex gap-4">
+                  <a
+                    href="https://apps.apple.com/jp/app/%E3%81%93%E3%81%93%E3%82%8D%E3%81%AE%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0/id6755748925"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-[var(--color-accent)] font-medium hover:underline"
+                  >
+                    iOS
+                  </a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.kokoroliving.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-[var(--color-accent)] font-medium hover:underline"
+                  >
+                    Android
+                  </a>
+                </div>
               </div>
-            </a>
+            </div>
+
+            {/* Work 3: Clip Stoker */}
+            <div className="group block bg-[var(--color-warm-gray)] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-gradient-to-br from-purple-400 to-purple-500 relative overflow-hidden">
+                <img
+                  src="images/clip-stoker-img.jpg"
+                  alt="Clip Stoker"
+                  className="w-full h-full object-cover relative z-10"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="font-bold text-lg mb-2">
+                  Clip Stoker
+                </h3>
+                <p className="text-sm text-[var(--color-text-light)] mb-3">
+                  複数のプラットフォームに散らばったお気に入りのショート動画を、ひとつのアプリでまとめて管理できるブックマークアプリです。
+                </p>
+                <a
+                  href="https://apps.apple.com/jp/app/example"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-[var(--color-accent)] font-medium hover:underline"
+                >
+                  iOSアプリ
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
