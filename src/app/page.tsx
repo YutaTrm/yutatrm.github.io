@@ -186,7 +186,7 @@ export default function Home() {
                   複数のプラットフォームに散らばったお気に入りのショート動画を、ひとつのアプリでまとめて管理できるブックマークアプリです。
                 </p>
                 <a
-                  href="https://apps.apple.com/jp/app/example"
+                  href="https://apps.apple.com/us/app/clipstocker/id6757007174"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-[var(--color-accent)] font-medium hover:underline"
